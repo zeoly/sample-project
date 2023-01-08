@@ -19,7 +19,7 @@ public class DataSourceConfiguration {
 
     @Bean
     public DataSource dataSource() throws IOException {
-        File[] files = Paths.get("multi-datasource/allTenants").toFile().listFiles();
+        File[] files = Paths.get("multitenancy/allTenants").toFile().listFiles();
         Map<Object, Object> resolvedDataSources = new HashMap<>();
 
         for (File file : files) {
