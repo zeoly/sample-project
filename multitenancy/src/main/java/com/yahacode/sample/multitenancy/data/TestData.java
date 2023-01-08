@@ -1,4 +1,4 @@
-package com.yahacode.sample.multidatasouce.data;
+package com.yahacode.sample.multitenancy.data;
 
 import org.hibernate.annotations.GenericGenerator;
 

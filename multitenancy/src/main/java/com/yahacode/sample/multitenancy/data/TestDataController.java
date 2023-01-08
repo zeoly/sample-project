@@ -1,4 +1,4 @@
-package com.yahacode.sample.multidatasouce.data;
+package com.yahacode.sample.multitenancy.data;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

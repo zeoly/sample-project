@@ -1,4 +1,4 @@
-package com.yahacode.sample.multidatasouce.config;
+package com.yahacode.sample.multitenancy.config;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;

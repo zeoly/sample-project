@@ -1,4 +1,4 @@
-package com.yahacode.sample.multidatasouce.config;
+package com.yahacode.sample.multitenancy.config;
 
 public class TenantContext {
 

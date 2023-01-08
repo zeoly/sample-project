@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multi-datasource</artifactId>
+    <artifactId>multitenancy</artifactId>
 
     <dependencies>
         <dependency>
