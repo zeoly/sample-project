@@ -9,7 +9,6 @@ import javax.sql.DataSource;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -19,7 +18,7 @@ public class DataSourceConfiguration {
 
     @Bean
     public DataSource dataSource() throws IOException {
-        File[] files = Paths.get("multitenancy/allTenants").toFile().listFiles();
+        File[] files = new File(this.getClass().getResource("/").getPath() + "allTenants").listFiles();
         Map<Object, Object> resolvedDataSources = new HashMap<>();
 
         for (File file : files) {
