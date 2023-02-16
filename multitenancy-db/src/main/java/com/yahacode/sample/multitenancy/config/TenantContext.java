@@ -2,7 +2,7 @@ package com.yahacode.sample.multitenancy.config;
 
 public class TenantContext {
 
-    private static final ThreadLocal<String> CURRENT = new ThreadLocal<>();
+    private static final InheritableThreadLocal<String> CURRENT = new InheritableThreadLocal<>();
 
     public static String get() {
         return CURRENT.get();
