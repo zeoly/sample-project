@@ -17,6 +17,8 @@
         <module>multitenancy-db</module>
         <module>multitenancy-table</module>
         <module>multi-datasource</module>
+        <module>test-hiddenblade</module>
+        <module>unit-test</module>
     </modules>
 
     <properties>
