@@ -1,0 +1,19 @@
+= test
+
+:toc:
+
+== test
+
+[plantuml]
+....
+class ABC {
+}
+....
+
+=== test
+
+[source, java]
+....
+class ABC {
+}
+....
