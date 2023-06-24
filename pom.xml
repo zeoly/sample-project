@@ -19,6 +19,7 @@
         <module>multi-datasource</module>
         <module>test-hiddenblade</module>
         <module>unit-test</module>
+        <module>project-plan</module>
     </modules>
 
     <properties>
