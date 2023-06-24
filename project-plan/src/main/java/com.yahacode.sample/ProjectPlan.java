@@ -23,7 +23,7 @@ public class ProjectPlan {
                 sa.intermediateCount + web.intermediateCount + server.intermediateCount + test.intermediateCount + om.intermediateCount;
         double seniorCount = sa.seniorCount + web.seniorCount + server.seniorCount + test.seniorCount + om.seniorCount;
         double moneyCost =
-                (juniorCount * SalaryCost.JUNIOR + intermediateCount * SalaryCost.INTERMEDIATE + seniorCount * seniorCount) * period;
+                (juniorCount * SalaryCost.JUNIOR + intermediateCount * SalaryCost.INTERMEDIATE + seniorCount * SalaryCost.SENIOR) * period;
         System.out.println("单项目成本：" + moneyCost);
         double singleProjectManPower = (juniorCount + intermediateCount + seniorCount) * period;
         System.out.println("单项目人力：" + singleProjectManPower + "人月");
@@ -57,7 +57,7 @@ public class ProjectPlan {
         ProjectPlan projectPlan2 = new ProjectPlan("50w",
                 new Position(0.5, 0, 0),
                 new Position(1.5, 0, 0),
-                new Position(4, 0.5, 0),
+                new Position(3, 1, 0),
                 new Position(0.5, 0, 0),
                 new Position(0.5, 0, 0), 3);
         projectPlan2.display(6);
@@ -67,7 +67,7 @@ public class ProjectPlan {
                 new Position(2, 0.5, 0),
                 new Position(6, 1, 1),
                 new Position(1, 0.5, 0),
-                new Position(0.5, 0, 0), 3);
+                new Position(0, 0.5, 0), 3);
         projectPlan3.display(2);
     }
 }
