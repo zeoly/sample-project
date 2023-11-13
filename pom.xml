@@ -20,6 +20,8 @@
         <module>test-hiddenblade</module>
         <module>unit-test</module>
         <module>project-plan</module>
+        <module>dsl</module>
+        <module>syntactic-sugar</module>
     </modules>
 
     <properties>
