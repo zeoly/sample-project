@@ -22,6 +22,8 @@
         <module>project-plan</module>
         <module>dsl</module>
         <module>syntactic-sugar</module>
+        <module>qrcode</module>
+        <module>gpx-converter</module>
     </modules>
 
     <properties>
@@ -40,4 +42,17 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>aliyun-public</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-plugin</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
