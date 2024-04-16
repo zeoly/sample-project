@@ -1,4 +1,4 @@
-package com.yahacode.sample.gpx;
+package com.yahacode.sample.gpx.process;
 
 import com.yahacode.hiddenblade.tool.utils.GeoUtil;
 import org.dom4j.Document;
