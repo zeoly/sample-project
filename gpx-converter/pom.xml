@@ -26,8 +26,8 @@
 
         <dependency>
             <groupId>com.yahacode</groupId>
-            <artifactId>hiddenblade-tool</artifactId>
-            <version>0.3.4</version>
+            <artifactId>hiddenblade-geo</artifactId>
+            <version>0.3.2</version>
         </dependency>
 
         <dependency>
